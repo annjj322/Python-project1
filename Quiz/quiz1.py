@@ -14,7 +14,7 @@ screen_height = 640
 screen = pygame.display.set_mode((screen_width,screen_height))
 
 
-character = pygame.image.load("C:/Users/Junje Ahn/Desktop/Python-project1/Quiz/quiz_character.png")
+character = pygame.image.load("C:/Users/junje/Desktop/Python-project1/Quiz/quiz_character.png")
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
@@ -28,9 +28,9 @@ def collision():
     running = False
 
 
-background = pygame.image.load("C:/Users/Junje Ahn/Desktop/Python-project1/Quiz/quiz_back.png")
+background = pygame.image.load("C:/Users/junje/Desktop/Python-project1/Quiz/quiz_back.png")
 
-enemy = pygame.image.load("C:/Users/Junje Ahn/Desktop/Python-project1/Quiz/quiz_enemy.png")
+enemy = pygame.image.load("C:/Users/junje/Desktop/Python-project1/Quiz/quiz_enemy.png")
 enemy_size = enemy.get_rect().size
 enemy_width = enemy_size[0]
 enemy_height = enemy_size[1]
@@ -38,6 +38,7 @@ enemy_pos_x = randrange(0,screen_width-character_width)
 enemy_pos_y = 0
 enemy_speed = 6
 
+time_spot=1
 
 to_x = 0
 move = 1
